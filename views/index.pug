@@ -1,0 +1,18 @@
+html
+  head
+  body
+    form(action='/', method='post')
+      | First name:
+      input(type='text', name='fname')
+      br
+      br
+      |  Rollno :
+      input(type='text', name='lname', pattern='[0-9]', {2})
+      br
+      br
+      |  age:
+      input(type='text', name='age', pattern='[0-9]', {2})
+      br
+      br
+      |
+      input(type='submit', value='Submit')
